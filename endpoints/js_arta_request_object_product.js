@@ -1,0 +1,26 @@
+{
+	"internal_reference":"",
+	"current_packing":[],
+	"depth":"",
+	"details":{
+		"materials":[],
+			"creation_date":"",
+			"creator":"",
+			"notes":"",
+			"title":"",
+			"is_fragile":false,
+			"is_cites":false
+	},
+	"height":"x_objects_height",
+	"images":[
+		""
+	],
+	"public_reference":"",
+	"subtype":"",
+	"width":"",
+	"unit_of_measurement":"",
+	"weight":"",
+	"weight_unit":"",
+	"value":"",
+	"value_currency":""
+}

@@ -1,0 +1,47 @@
+.antique-timer {
+    font-size: 57px;
+    text-align: center;
+
+    @media (max-width: 1099px) {
+        font-size: 34px;
+    }
+
+    &__titles {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4px;
+        h4 {
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 12px;
+            @media (min-width: 576px) {
+                font-size: 15px;
+            }
+        }
+    }
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media (max-width: 1099px) {
+        flex: 0 0 150px;
+    }
+
+    @media (max-width: 576px) {
+        flex: 1 1 auto;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+        font-size: 16px;
+        color: var(--accent);
+        text-transform: uppercase;
+
+        @media (max-width: 1099px) {
+            font-size: 14px;
+        }
+
+        text-align: center;
+    }
+}
